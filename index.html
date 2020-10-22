@@ -12,6 +12,14 @@
   box-sizing: border-box;
 }
 
+#wrapper {
+  width: 500px;
+  height: 100%;
+  text-emphasis: none;;
+  margin: 0 auto;
+  text-align: center;
+}
+
     #center {
       text-align: center;
 
@@ -54,23 +62,35 @@ h2 {
 }
 @media (min-width:800px){
     .inner {
-        width: 25%;
+        width: 25%;   
+}
 
-        
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: small;
+  }
 }
-    #center {
-      left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    }
+#center {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  }
 }
+h3 {
+  color: rgb(223, 223, 223);
+}
+
  h2 {
    color: rgb(255, 255, 255);
  }
 
  p {
    color: rgb(223, 223, 223);
+ }
+
+ h3:hover {
+   color: red;
  }
   </style>
 </head>
@@ -87,7 +107,21 @@ h2 {
             </div>
           </div>
         </nav>
-        <h2 style="color: rgb(255, 125, 125);">Website under maintenance <i class="fas fa-tools" style="font-size:24px" aria-hidden="true"></i></h2>
+       <div id="wrapper">
+         <div class="container" style="text-align: left; padding: 10px;">
+        <h2 style="text-align: center;">Current Opportunities</h2>
+        <a href="
+        https://cloud.tsilhqotinlanguage.ca:9443/index.php/s/KHYLybAJJ75DTyo" download target="blank">
+          <h3>Assistant Resource Management Coordinator</h3>
+        </a>
+        <a href="https://cloud.tsilhqotinlanguage.ca:9443/index.php/s/4ZoWRknX2Cg3W3S" download target="blank">
+          <h3>GIS Technician</h3>
+        </a>
+        <a href="https://cloud.tsilhqotinlanguage.ca:9443/index.php/s/PRrdeoic368p9Hd" download target="blank">
+          <h3>Finance Office, Payroll</h3>
+        </a>
+        </div>
+       </div>
 
 <div class="wrapper">
     <div class="inner"> 
